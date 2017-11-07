@@ -42,21 +42,21 @@
 /* Universal */
 html {
   font-size: 16px;
-  font-family: Helvetica;
+  font-family: Helvetica, sans-serif;
 }
 
 h1 {
   font-size: 1.8rem;
   font-weight: 700;
   padding: 1rem 0;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', 'Helvetica', sans-serif;
 }
 
 h3 {
   font-size: 1.1rem;
   font-weight: 700;
   padding: 1rem 0;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', 'Helvetica', sans-serif;
 }
 
 a {
@@ -64,7 +64,7 @@ a {
 }
 
 p {
-  font-family: 'Raleway';
+  font-family: 'Raleway', 'Helvetica', sans-serif;
   font-weight: 500;
 }
 
@@ -98,12 +98,8 @@ img {
 
 /* Header Section */
 /* Desktop Header */
-.background-header {
-  background-color: rgba(239, 239, 239, 1);
-}
-
 header {
-  background-color: transparent;
+  background-color: rgba(239, 239, 239, 1);
   transition: all 500ms ease-out 0s;
 }
 
@@ -142,7 +138,7 @@ header:hover .desktop-nav nav li a {
 
 .logo span {
   font-size: 1.4rem;
-  font-family: 'Quicksand';
+  font-family: 'Quicksand', 'Helvetica', sans-serif;
   font-weight: 400;
   color: rgba(255, 106, 0, 1);
 }
@@ -180,7 +176,7 @@ header:hover .desktop-nav nav li a {
 }
 
 .desktop-nav nav ul li a {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', 'Helvetica', sans-serif;
   color: black;
   font-size: 0.8rem;
   transition: all 500ms ease-out 0s;
@@ -220,7 +216,7 @@ header:hover .desktop-nav nav li a {
 /* End of Header */
 
 /* Banner */
-.background-banner {
+.banner-section {
   background-color: rgba(34, 34, 34, 1);
 }
 
@@ -329,8 +325,11 @@ header:hover .desktop-nav nav li a {
      }
  /* End of Banner */
 
-/* Information & Thesis Exhibit */
-.background-information {
+/* Information & Thesis Exhibit
+(included together in css as their designs
+are almost identical so same classes were
+used for both sections) */
+.information-section {
   background-color: rgba(239, 239, 239, 1);
 }
 
@@ -414,7 +413,7 @@ header:hover .desktop-nav nav li a {
   background-color: rgba(255, 175, 13, 0.7);
 }
 
-.background-thesis {
+.thesis-section {
   background-color: rgba(239, 239, 239, 1);
 }
 
@@ -466,7 +465,7 @@ header:hover .desktop-nav nav li a {
      padding-bottom: 2rem;
    }
 
-   .thesis-section {
+   .section-thesis {
      display: none;
    }
 
@@ -487,7 +486,7 @@ header:hover .desktop-nav nav li a {
 /* End of Information & Thesis Exhibit */
 
 /* Courses */
-.background-courses {
+.courses-section {
   background-attachment: fixed;
   background-image: url('../media/images/stock-photo-3-edit.jpg');
   background-repeat: no-repeat;
@@ -635,6 +634,10 @@ footer {
 }
 
 @media only screen and (max-width: 647px) {
+    footer {
+       height: 7rem;
+    }
+
    .terms-privacy {
      display: none;
    }
@@ -658,5 +661,9 @@ footer {
 
    .fa-google-plus-official {
      color: #db4437;
+   }
+
+   .social {
+     padding-bottom: 1rem;
    }
  }

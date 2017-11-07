@@ -1,0 +1,13 @@
+Quick explanantion of my design:
+-I initally considered using the full screen for the website before deciding that a container was the better option here
+as everything will be displayed in the center of the screen this way, making it easier to take in the information on the site
+in my opinion (less eye/head movement required to take it all in)
+
+-I chose variations of grey for the backgrounds and added orange elements throughout. I decided on grey because to me, it 
+communicates "clean and professional". I used orange elements on the site to communicate creativity to those browsing the site
+and thinking of joining Colmar Academy.
+
+-For the section of the site containing the courses, I used a stock photo of a university from pexels.com as the background.
+I did this to add a bit more color to the site and to make it a bit more interesting/exciting.
+
+-I also used minor animations throughout the site in order to make it come to life.
