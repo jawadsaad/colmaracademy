@@ -207,8 +207,7 @@ header:hover .desktop-nav nav li a {
   display: inline-block;
 }
 
-@media only screen and (max-width: 659px),
-(max-device-width: 659px) {
+@media only screen and (max-width: 659px) {
   .desktop-nav {
     display: none;
   }
@@ -262,8 +261,7 @@ header:hover .desktop-nav nav li a {
   color: rgba(239, 239, 239, 1);
 }
 
-@media only screen and (max-width: 659px),
-(max-device-width: 659px) {
+@media only screen and (max-width: 659px) {
   .button {
     background-color: rgba(255, 106, 0, 1);
   }
@@ -277,8 +275,7 @@ header:hover .desktop-nav nav li a {
   }
 }
 
-@media only screen and (max-width: 547px),
- (max-device-width: 547px) {
+@media only screen and (max-width: 547px) {
    .banner {
      flex-direction: column;
      height: 36rem;
@@ -307,29 +304,25 @@ header:hover .desktop-nav nav li a {
    }
  }
 
- @media only screen and (max-width: 433px),
-  (max-device-width: 433px) {
+ @media only screen and (max-width: 433px) {
     .button {
       width: 96.5%;
     }
   }
 
-  @media only screen and (max-width: 402px),
-   (max-device-width: 42px) {
+  @media only screen and (max-width: 402px) {
      .button {
        width: 96%;
      }
    }
 
-   @media only screen and (max-width: 354px),
-    (max-device-width: 354px) {
+   @media only screen and (max-width: 354px) {
       .button {
         width: 95.5%;
       }
     }
 
-    @media only screen and (max-width: 317px),
-     (max-device-width: 317px) {
+    @media only screen and (max-width: 317px) {
        .button {
          width: 95%;
        }
@@ -435,8 +428,7 @@ header:hover .desktop-nav nav li a {
   text-align: center;
 }
 
-@media only screen and (max-width: 547px),
- (max-device-width: 547px) {
+@media only screen and (max-width: 547px) {
    .practice {
      display: none;
    }
@@ -571,8 +563,7 @@ header:hover .desktop-nav nav li a {
   line-height: 1.2;
 }
 
-@media only screen and (max-width: 480px),
- (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
    .courses {
      flex-direction: column;
      width: 100%;
@@ -643,8 +634,7 @@ footer {
   color: black;
 }
 
-@media only screen and (max-width: 647px),
- (max-device-width: 647px) {
+@media only screen and (max-width: 647px) {
    .terms-privacy {
      display: none;
    }
