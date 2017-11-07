@@ -1,0 +1,672 @@
+/* Fonts */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v11/zhcz-_WihjSQC0oHJ9TCYPk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v11/IQHow_FEYlDC4Gzy_m8fcoWiMMZ7xLd792ULpGE4W_Y.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Raleway Medium'), local('Raleway-Medium'), url(https://fonts.gstatic.com/s/raleway/v12/CcKI4k9un7TZVWzRVT-T8_k_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Quicksand Regular'), local('Quicksand-Regular'), url(https://fonts.gstatic.com/s/quicksand/v7/sKd0EMYPAh5PYCRKSryvW1tXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Quicksand Bold'), local('Quicksand-Bold'), url(https://fonts.gstatic.com/s/quicksand/v7/32nyIRHyCu6iqEka_hbKsugdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* Universal */
+html {
+  font-size: 16px;
+  font-family: Helvetica;
+}
+
+h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 1rem 0;
+  font-family: 'Montserrat';
+}
+
+h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 1rem 0;
+  font-family: 'Montserrat';
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: 'Raleway';
+  font-weight: 500;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+
+.main-item {
+  width: 60%;
+  padding: 2rem 1.5rem;
+  line-height: 1.4;
+}
+
+.main-image {
+  width: 100%;
+  height: auto;
+}
+
+.other-items {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.4;
+}
+
+/* Header Section */
+/* Desktop Header */
+.background-header {
+  background-color: rgba(239, 239, 239, 1);
+}
+
+header {
+  background-color: transparent;
+  transition: all 500ms ease-out 0s;
+}
+
+header:hover {
+  background-color: black;
+}
+
+header:hover .logo .colmar {
+  color: white;
+}
+
+header:hover #prog2_pro3_Mobile-Portrait_opt2-Copy-2 {
+  fill: white;
+}
+
+#prog2_pro3_Mobile-Portrait_opt2-Copy-2 {
+  transition: all 500ms ease-out 0s;
+}
+
+header:hover .desktop-nav nav li a {
+  color: white;
+}
+
+.desktop-nav {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin: 1.5rem;
+}
+
+.logo span {
+  font-size: 1.4rem;
+  font-family: 'Quicksand';
+  font-weight: 400;
+  color: rgba(255, 106, 0, 1);
+}
+
+.logo .colmar {
+  color: black;
+  font-weight: 700;
+  transition: all 500ms ease-out 0s;
+}
+
+.logo .academy {
+  transition: all 500ms ease-out 0s;
+}
+
+.desktop-nav nav {
+  margin: 1.5rem;
+}
+
+.desktop-nav nav li {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 0.5rem;
+  height: 3.75rem;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+}
+
+.desktop-nav nav li:hover {
+  border-bottom: 2px solid rgba(255, 106, 0, 1);
+  background-color: rgba(255, 106, 0, 0.2);
+}
+
+.desktop-nav nav ul li:last-child {
+  margin-right: 0;
+}
+
+.desktop-nav nav ul li a {
+  font-family: 'Montserrat';
+  color: black;
+  font-size: 0.8rem;
+  transition: all 500ms ease-out 0s;
+}
+
+/* Mobile Header */
+.mobile-nav {
+  display: none;
+  background-color: rgba(255, 106, 0, 1);
+  height: 4rem;
+}
+
+.mobile-nav nav {
+  width: 100%;
+}
+
+.mobile-nav nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.mobile-nav nav ul li {
+  display: inline-block;
+}
+
+@media only screen and (max-width: 659px),
+(max-device-width: 659px) {
+  .desktop-nav {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: flex;
+    align-items: center;
+  }
+}
+/* End of Header */
+
+/* Banner */
+.background-banner {
+  background-color: rgba(34, 34, 34, 1);
+}
+
+.banner {
+  height: 29rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.small {
+  width: 26%;
+  color: white;
+}
+
+.button {
+  padding: 1rem 0;
+  background-color: rgba(239, 239, 239, 1);
+  width: 100%;
+  margin-top: 1rem;
+  text-align: center;
+  transition: all 200ms linear 0s;
+}
+
+.button span {
+  width: 100%;
+  padding: 0.5rem;
+  color: rgba(255, 106, 0, 1);
+  font-weight: bold;
+  font-size: 0.85rem;
+}
+
+.button:hover {
+  background-color: rgba(255, 106, 0, 1);
+}
+
+.button:hover span {
+  color: rgba(239, 239, 239, 1);
+}
+
+@media only screen and (max-width: 659px),
+(max-device-width: 659px) {
+  .button {
+    background-color: rgba(255, 106, 0, 1);
+  }
+
+  .button span {
+    color: rgba(239, 239, 239, 1);
+  }
+
+  .small h1 {
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (max-width: 547px),
+ (max-device-width: 547px) {
+   .banner {
+     flex-direction: column;
+     height: 36rem;
+   }
+
+   .learn {
+     width: 100%;
+     padding: 0;
+}
+
+   .other-items {
+     width: 100%;
+     height: 55%;
+     padding: 2rem 0;
+     margin-left: 1rem;
+     justify-content: space-around;
+   }
+
+   .button {
+     margin-bottom: 2rem;
+     width: 97%;
+   }
+
+   .other-items h1 {
+     padding: 2rem 0 1rem 0;
+   }
+ }
+
+ @media only screen and (max-width: 433px),
+  (max-device-width: 433px) {
+    .button {
+      width: 96.5%;
+    }
+  }
+
+  @media only screen and (max-width: 402px),
+   (max-device-width: 42px) {
+     .button {
+       width: 96%;
+     }
+   }
+
+   @media only screen and (max-width: 354px),
+    (max-device-width: 354px) {
+      .button {
+        width: 95.5%;
+      }
+    }
+
+    @media only screen and (max-width: 317px),
+     (max-device-width: 317px) {
+       .button {
+         width: 95%;
+       }
+     }
+ /* End of Banner */
+
+/* Information & Thesis Exhibit */
+.background-information {
+  background-color: rgba(239, 239, 239, 1);
+}
+
+.practice {
+  border-right: 1px lightgrey solid;
+  padding-bottom: 2rem;
+}
+
+.info {
+  display: flex;
+}
+
+.info-image {
+  width: 35%;
+  height: auto;
+  padding: 1rem;
+}
+
+.info-image-mobile {
+  display: none;
+}
+
+.info-image-desktop {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.information {
+  justify-content: flex-start;
+  padding: 2rem 0;
+}
+
+.textbox {
+  width: 65%;
+}
+
+.textbox h3, p, a {
+  padding: 0.25rem 0;
+}
+
+.textbox p, a {
+  font-size: 0.8rem;
+}
+
+.read-more {
+  color: rgba(239, 239, 239, 1);
+  background-color: rgba(255, 106, 0, 0.8);
+  padding-left: 0.1rem;
+  transition: all 500ms ease-out 0s;
+}
+
+.read-more i {
+  position: relative;
+  left: -20%;
+  opacity: 0;
+  transition: left 500ms ease-out 0s,
+   opacity 500ms ease-out 0s;
+}
+
+.read-more:hover {
+  background-color: rgba(255, 106, 0, 1);
+  padding-right: 0.5rem;
+}
+
+.read-more:hover i {
+  left: 0;
+  opacity: 1;
+}
+
+.infobox {
+  display: flex;
+  border: 1px lightgrey solid;
+  width: 99%;
+  align-items: center;
+  justify-content: space-around;
+  transition: all 500ms ease-out 0s;
+}
+
+.infobox:hover {
+  background-color: rgba(255, 175, 13, 0.7);
+}
+
+.background-thesis {
+  background-color: rgba(239, 239, 239, 1);
+}
+
+.thesis {
+  display: flex;
+}
+
+.thesis-title {
+  padding-top: 2rem;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+@media only screen and (max-width: 547px),
+ (max-device-width: 547px) {
+   .practice {
+     display: none;
+   }
+
+   .information {
+     width: 100%;
+     margin-right: 1rem;
+     padding: 1rem 0;
+   }
+
+   .infobox {
+     flex-direction: column;
+     border: none;
+   }
+
+   .info-image {
+     width: 100%;
+     padding: 0;
+   }
+
+   .info-image-desktop {
+     display: none;
+   }
+
+   .info-image-mobile {
+     display: block;
+     width: 100%;
+     height: auto;
+   }
+
+   .textbox {
+     width: 100%;
+     margin-left: 1rem;
+     padding-top: 1rem;
+     padding-bottom: 2rem;
+   }
+
+   .thesis-section {
+     display: none;
+   }
+
+   .thesis-exhibit {
+     width: 100%;
+     padding-left: 0;
+     padding-right: 0;
+   }
+
+   .thesis-exhibit h3 {
+     display: none;
+   }
+
+   .thesis-exhibit p {
+     display: none;
+   }
+ }
+/* End of Information & Thesis Exhibit */
+
+/* Courses */
+.background-courses {
+  background-attachment: fixed;
+  background-image: url('../media/images/stock-photo-3-edit.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.course {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.course h1 {
+  padding: 2rem 0;
+  color: rgba(239, 239, 239, 1);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.courses {
+  max-width: 816px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.coursebox {
+  width: 31%;
+  margin-bottom: 2rem;
+  background-color: white;
+  cursor: pointer;
+  transition: all 1s ease-out 0s;
+}
+
+.coursebox img {
+  transition: all 750ms ease-out 100ms;
+}
+
+.coursebox:hover img {
+  transform: scale(1.1);
+}
+
+.coursebox:hover h3 {
+  text-decoration: underline;
+}
+
+.coursebox:hover {
+  background-color: rgba(239, 239, 239, 1);
+}
+
+.course-imagebox {
+  width: 100%;
+  overflow: hidden;
+}
+
+.course-image {
+  height: auto;
+  width: 100%;
+}
+
+.course-description {
+  padding: 1rem 1rem 1.5rem 1rem;
+  font-size: 0.9rem;
+}
+
+.course-description h3 {
+  padding-top: 0;
+}
+
+.course-description p {
+  padding-top: 0.5rem;
+  line-height: 1.2;
+}
+
+@media only screen and (max-width: 480px),
+ (max-device-width: 480px) {
+   .courses {
+     flex-direction: column;
+     width: 100%;
+     align-items: center;
+   }
+
+   .coursebox {
+     width: 95%;
+     background-color: lightgrey;
+     margin-bottom: 0.5rem;
+   }
+
+   .course-imagebox {
+     display: none;
+   }
+
+   .course-description span {
+     display: none;
+   }
+
+   .course-description p {
+     display: none;
+   }
+
+   .course-description h3 {
+     padding: 0;
+   }
+ }
+/* End of Courses */
+
+/* Footer */
+footer {
+  height: 5rem;
+  background-color: rgba(239, 239, 239, 1);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  border-top: 1px solid black;
+}
+
+.fa {
+  cursor: pointer;
+  padding-right: 0.5rem;
+}
+
+
+.fa-facebook-official:hover {
+  color: #29487d;
+}
+
+.fa-twitter:hover {
+  color: #1c94e0;
+}
+
+.fa-google-plus-official:hover {
+  color: #db4437;
+}
+
+.terms-privacy nav ul li {
+  display: inline-block;
+  padding: 0 0.25rem;
+}
+
+.terms-privacy nav ul li a {
+  color: black;
+}
+
+@media only screen and (max-width: 647px),
+ (max-device-width: 647px) {
+   .terms-privacy {
+     display: none;
+   }
+
+   .footer {
+     flex-direction: column;
+     align-items: center;
+   }
+
+   .copyright {
+     padding-bottom: 1rem;
+   }
+
+   .fa-facebook-official {
+     color: #29487d;
+   }
+
+   .fa-twitter {
+     color: #1c94e0;
+   }
+
+   .fa-google-plus-official {
+     color: #db4437;
+   }
+ }
